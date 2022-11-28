@@ -1,11 +1,11 @@
-name: Enhancement proposal
+name: Feature request
 description: Propose an enhancement to Kustomize
 labels: kind/feature
 body:
   - type: markdown
     attributes:
       value: |
-        # Kustomize enhancement proposal
+        # Please read re: proposal scope
         
         Small, straightforward enhancements can be proposed in regular GitHub issues using the template below. As a rule of thumb, the enhancement should be resolvable in a single PR that is at most size L. Anything more involved requires a mini (in-repo) enhancement proposal, and features with implications for kubectl requires a full [KEP](https://github.com/kubernetes/enhancements). 
         
