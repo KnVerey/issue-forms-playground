@@ -20,8 +20,7 @@ body:
       options:
       - label: This issue is not requesting templating, unstuctured edits, build-time side-effects from args or env vars, or any other eschewed feature.
         required: true
-      - label: I am interested in contributing this feature myself! 🎉
-        required: false
+
   - type: textarea
     id: feature-description
     attributes:
@@ -58,3 +57,10 @@ body:
     validations:
       required: false
       
+  - type: checkboxes
+    attributes:
+      label: Feature ownership
+      description: The Kustomize project, like many areas of Kubernetes, currently lacks enough contributors to adequately respond to all proposals that have merit, and is focussed on bug fixes and maintenance of existing functionality. Offering to build and support the feature yourself can help get traction for your request.
+      options:
+      - label: I am interested in contributing this feature myself! 🎉
+        required: false
