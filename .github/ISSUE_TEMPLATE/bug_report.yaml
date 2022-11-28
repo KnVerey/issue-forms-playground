@@ -25,24 +25,24 @@ body:
     attributes:
       label: How can we reproduce it (as minimally and precisely as possible)?
       description: Please provide a minimum set of files that can reproduce the issue. You can paste the file contents here or provide a link to a tarball or git repo. Even better, submit a tests case in the api/krusty package! For more information on how to do that, see https://kubectl.docs.kubernetes.io/contributing/kustomize/bugs/.
-      value: "Example:
-```yaml
-# kustomization.yaml
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-- resources.yaml
-```
-
-```yaml
-# resources.yaml
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test-object
-data:
-  placeholder: data
-```"
+      value: | 
+        ```yaml
+        # kustomization.yaml
+        apiVersion: kustomize.config.k8s.io/v1beta1
+        kind: Kustomization
+        resources:
+        - resources.yaml
+        ```
+    
+        ```yaml
+        # resources.yaml
+        apiVersion: v1
+        kind: ConfigMap
+        metadata:
+          name: test-object
+        data:
+          placeholder: data
+        ```
     validations:
       required: true  
   - type: textarea
