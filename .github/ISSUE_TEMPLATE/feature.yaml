@@ -51,7 +51,7 @@ body:
       required: true        
 
   - type: textarea
-    id: rationale
+    id: additional-info
     attributes:
       label: Anything else we should know?
     validations:
