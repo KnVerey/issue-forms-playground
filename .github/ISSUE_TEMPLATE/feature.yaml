@@ -1,13 +1,13 @@
-name: Enhance proposal
+name: Enhancement proposal
 description: Propose an enhancement to Kustomize
 labels: kind/feature
 body:
   - type: markdown
     attributes:
       value: |
-        ## Kustomize enhancement proposal process
+        # Kustomize enhancement proposal
         
-        Small, straightforward enhancements can be proposed in regular GitHub issues using the template below. As a rule of thumb, the enhancement should be resolvable in a single PR that is at most size L. For example, a new Kustomization field that does something very straightforward, like annotating resources, or a a new option for an existing built-in transformer. Anything more involved requires a mini (in-repo) enhancement proposal, and features with implications for kubectl requires a full [KEP](https://github.com/kubernetes/enhancements). 
+        Small, straightforward enhancements can be proposed in regular GitHub issues using the template below. As a rule of thumb, the enhancement should be resolvable in a single PR that is at most size L. Anything more involved requires a mini (in-repo) enhancement proposal, and features with implications for kubectl requires a full [KEP](https://github.com/kubernetes/enhancements). 
         
         For more information on the enhancement process, see: https://github.com/kubernetes-sigs/kustomize/tree/master/proposals.      
 
