@@ -50,7 +50,10 @@ body:
     attributes:
       label: Expected output
       description: If you are able to provide reproduction files, please include the output you expect here.
-      placeholder: What output did you expect?
+      value: | 
+        ```yaml
+
+        ```
     validations:
       required: false
   - type: textarea
@@ -58,8 +61,11 @@ body:
     attributes:
       label: Actual output
       description: If you are able to provide reproduction files, please include the output they currently produce here.
-      placeholder: What output did Kustomize produce?
-    validations:
+      value: | 
+        ```yaml
+
+        ```
+      validations:
       required: false
   - type: input
     id: kustomize-version
@@ -73,6 +79,7 @@ body:
     id: os
     attributes:
       label: Operating system
+      value: Unspecified
       options:
         - Linux
         - MacOS
