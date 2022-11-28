@@ -58,7 +58,7 @@ body:
   - type: checkboxes
     attributes:
       label: Feature ownership
-      description: The Kustomize project, like many areas of Kubernetes, currently lacks enough contributors to adequately respond to all proposals that have merit, and is focussed on bug fixes and maintenance of existing functionality. Offering to build and support the feature yourself can help get traction for your request.
+      description: The Kustomize project, like many areas of Kubernetes, currently lacks enough contributors to adequately respond to all proposals that have merit. Offering to build and support the feature yourself can help get traction for your request.
       options:
       - label: I am interested in contributing this feature myself! 🎉
         required: false
