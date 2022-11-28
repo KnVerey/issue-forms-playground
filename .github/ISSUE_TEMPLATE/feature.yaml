@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <div class=h3>ℹ️ Instructions</div>
+        ### ℹ️ Instructions
         
         Small, straightforward enhancements can be proposed in regular GitHub issues using the template below. As a rule of thumb, the enhancement should be resolvable in a single PR that is at most size L. Anything more involved requires a mini (in-repo) enhancement proposal, and features with implications for kubectl require a full [KEP](https://github.com/kubernetes/enhancements). 
          
