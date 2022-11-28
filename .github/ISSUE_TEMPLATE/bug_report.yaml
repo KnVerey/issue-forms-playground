@@ -65,7 +65,7 @@ body:
         ```yaml
 
         ```
-      validations:
+    validations:
       required: false
   - type: input
     id: kustomize-version
