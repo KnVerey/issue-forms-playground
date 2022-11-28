@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Please read re: proposal scope
+        ### Instructions
         
         Small, straightforward enhancements can be proposed in regular GitHub issues using the template below. As a rule of thumb, the enhancement should be resolvable in a single PR that is at most size L. Anything more involved requires a mini (in-repo) enhancement proposal, and features with implications for kubectl require a full [KEP](https://github.com/kubernetes/enhancements). 
         
@@ -20,7 +20,8 @@ body:
       options:
       - label: This issue is not requesting templating, unstuctured edits, build-time side-effects from args or env vars, or any other eschewed feature.
         required: true
-
+      - label: I am interested in contributing this feature myself! 🎉
+        required: false
   - type: textarea
     id: feature-description
     attributes:
